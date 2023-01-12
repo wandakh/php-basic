@@ -1,0 +1,243 @@
+*{
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    
+}
+body{
+    background-color: #000;
+
+}
+.nav-bar{
+    background-color: rgba(255, 255, 255, 0.147);
+    box-sizing: border-box;
+    position: fixed;
+    height: 90px;
+    width: 100%;
+}
+label {
+    color: white;
+    font-size: 28px;
+    margin-left: 80px;
+    line-height: 92px;
+    background: none;
+}
+nav ul {
+    float: right;
+    margin-right: 70px;
+    font-family: poppins;
+    margin-top: 40px;
+    text-decoration: none;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+    text-decoration: none;
+}
+nav ul li a{
+    font-family: poppins;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: none;
+    transition: .3s;
+	position: relative;
+}
+
+nav ul li a:hover {
+	color: #fff;
+}
+nav ul li a::after{
+	content: '';
+	width: 0;
+	height: 3px;
+	background:  #fff;
+	position: absolute;
+	left: 0;
+	bottom: -6px;
+	transition: 0.5s;
+}
+nav ul li a:hover:after{
+	width: 100%;
+}
+
+.welcome{
+    height: 700px;
+    width: 100%;
+    background-image: url(https://cdn.pixabay.com/photo/2020/05/25/16/13/parsley-5219288_960_720.jpg);
+    background-color: #000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:absolute;
+}
+.welcome h1{
+    margin-top: 300px;
+    font-size: 80px;
+    margin-right: 500px;
+    color: #fff;
+
+}
+.welcome h2{
+    color: #fff;
+    font-size: 30px;
+    margin-right: 500px;
+    margin-top: 30px;
+}
+.about{
+    background-image: url(https://cdn.pixabay.com/photo/2018/02/04/02/19/food-3128914_960_720.jpg);
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.about h1{
+    margin-top: 350px;
+    color: #fff;
+    font-size: 70px;
+    margin-left: 650px;
+    padding-top:100px;
+
+}
+.about p{
+    color:#ffff ;
+    font-size: 18px;
+    margin-top: 35px;
+    text-align: left;
+    margin-left: 735px;
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(4,2fr);
+}
+.menubox{
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.195);
+    margin-bottom: 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 30px;
+    margin-left: 10px;
+}
+.crud ul a{
+    background-color: rgba(255, 255, 255, 0.195);
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 1px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    justify-items: center;
+    color: #fff;
+}
+.tambahdaftarmakanan h1{
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+}
+.daftarmakanan h1{
+    color: #fff;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 80px;
+
+}
+table th, td{
+    color: #fff;
+    text-align: center;
+}
+table {
+    margin-left: 50px;
+}
+form{
+    margin-top: 50px;
+    margin-left: 30px;
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction:row; */
+    color: #fff;
+}
+form input{
+    color: #fff;
+    padding-left: 15px;
+    width: 200px;
+    height: 35px;
+    background-color: rgba(255, 255, 255, 0.195);
+    box-sizing: border-box;
+    border-radius: 10px;
+    border-color: rgba(255, 255, 255, 0.100);
+}
+form button{
+    color: #fff;
+    width: 150px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.195);
+    box-sizing: border-box;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.6s;
+    background-size:200%;
+    background-image: linear-gradient(to left, rgb(23, 17, 17), rgba(136, 28, 28, 0.7) )
+}
+form button:hover{
+    background-position: right;
+}
+tr{
+    justify-items: center;
+}
+#contact{
+    margin-top: 500px;
+}
+footer h2{
+	color: #fff;
+    justify-items: center;
+    margin-left: 480px;
+}
+.content-about h2{
+	text-align: center;
+	padding-top: 15px;
+}
+.content-social{
+	color: rgb(0, 0, 0);
+	font-size: 45px;
+    text-align: center;
+    text-shadow: black
+
+}
+.content-social .fa-brands{
+    margin-top: 70px;
+	color: white;
+	margin-left: 90px;
+    margin-right: 140px;
+}
+.footer-content{
+	width: 100%;
+	height: 250px;
+	background:rgba(255, 255, 255, 0.150);
+}
+.Footer-botton{
+	width:100% ;
+	height: 15px;
+	margin-top: 80px;
+    border-color: #fff;
+	color: #fff;
+	background:rgba(255, 255, 255, 0.280);
+	text-align: center;
+	padding: 5px;
+}
+.About-card{
+	padding-bottom:200px;
+}
+
+footer div a{
+	width: 50px;
+	height: 50px;
+}
+
